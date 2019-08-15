@@ -41,7 +41,7 @@ shimmer.wrap(Agent, 'start', function(startAgent) {
             instrumentHttpOut(Agent, WebApp);
             instrumentSession(Agent, Session);
             instrumentSubscription(Agent, Subscription);
-            instrumentAsync(Agent, Fibers);
+            // instrumentAsync(Agent, Fibers);
             instrumentDB(Agent, Meteor, MongoCursor);
 
             startAgent.apply(Agent, args);
