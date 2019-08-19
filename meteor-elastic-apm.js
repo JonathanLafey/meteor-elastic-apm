@@ -46,7 +46,7 @@ shimmer.wrap(Agent, 'start', function(startAgent) {
 
             startAgent.apply(Agent, args);
 
-            startMetrics(Agent);
+            // startMetrics(Agent);
 
             Agent.logger.info('meteor-elastic-apm completed instrumenting');
           } catch (e) {
