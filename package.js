@@ -12,7 +12,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'elastic-apm-node': '2.15.0',
+  'elastic-apm-node': '2.16.2',
   shimmer: '1.2.1'
 });
 
